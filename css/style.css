@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{font: 14px/1.4em Arial, Helvetica, sans-serif;background:#EEE;color:#333;padding:30px 0;}
+.pointer{cursor: pointer;}
+h1{font-size:36px;line-height: 1.2em;margin-bottom:15px;}
+h2{font-size:28px;line-height: 1.2em;margin-bottom:15px;}
+h3{font-size:24px;line-height: 1.2em;margin-bottom:15px;}
+h4{font-size:20px;line-height: 1.2em;margin-bottom:15px;}
+h5{font-size:18px;line-height: 1.2em;font-weight: bold;margin-bottom:15px;}
+h6{font-size:14px;line-height: 1.2em;font-weight: bold;margin-bottom:15px;}
+
+p{margin-bottom:20px;}
+
+.page{
+	background:#FFF;
+	width:90%;
+	padding:30px;
+	border:solid 1px #DDD;
+	margin:0 auto;
+	position: relative;
+}
+
+a{color:#29F;text-decoration: none}
+a:hover{text-decoration: underline;}
+
+.row{margin:0 -30px;}
+.col{float:left;width:50%;padding:0 30px 20px;}
+.header{padding:15px 0;border-top:solid 1px #CCC;border-bottom:dotted 1px #DDD;margin-bottom:15px;margin-top:30px;}
+.header h2{float:left;font-size:20px;font-weight: bold;line-height: 30px;width:30%;margin: 0;}
+.settings{font-size:11px;line-height: 30px;float:left;width:70%;padding-left:30px;text-align: right}
+.settings input[type=number]{width:40px;}
+.settings input[type=checkbox]{margin:0;vertical-align: middle;}
+.settings label{margin-left: 35px}
+
+
+#tag-cloud span{display: inline-block;padding: 5px 10px;border: 1px solid #DDD;margin:0 10px 10px 0;border-radius: 3px;vertical-align: middle;}
+
+
+
+.list-model{list-style: outside disc;padding-left:30px;}
+.list-model li{padding:10px;}
+
+
+#update-all{position: absolute;top:30px;right: 30px;display: block;font-size: 12px;line-height: 1em}
